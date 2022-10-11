@@ -5,5 +5,16 @@ body {
 
 #head {
     display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
     
+}
+
+.header-links {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
 }
