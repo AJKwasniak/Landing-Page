@@ -1,7 +1,9 @@
 body {
     display: flex;
     flex-direction: column;
-    background-color: rosybrown
+    background-color: rosybrown;
+    padding-right: 200px;
+    padding-left: 200px;
 }
 
 #head {
@@ -15,6 +17,7 @@ body {
     font-weight: bold;
     color: whitesmoke;
     font-size: larger;
+
 }
 
 .header-links {
@@ -28,5 +31,19 @@ body {
 #top-half {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
+button {
+    background-color: royalblue;
+    color: white;
+    border-radius: 25px;
+    padding: 10px;
+    width: 80px;
+    height: 50px;
+}
+
+img {
+    width: 375px;
+    height: 250px;
+}
