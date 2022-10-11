@@ -1,20 +1,32 @@
 body {
     display: flex;
     flex-direction: column;
+    background-color: rosybrown
 }
 
 #head {
     display: flex;
     justify-content: space-between;
+    
 }
 
 .header {
     display: flex;
-    
+    font-weight: bold;
+    color: whitesmoke;
+    font-size: larger;
 }
 
 .header-links {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 64px;
+    font-size: small;
+    color: white;
 }
+
+#top-half {
+    display: flex;
+    flex-direction: row;
+}
+
